@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Weather App</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/weather.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <script src="weather.js"></script>
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="top-card">
+            <div class="weather-icon"></div>
+            <div class="top-info-container">
+              <div class="top-info city-name"></div>
+              <div class="top-info temperature"></div>
+            </div>
+            <div class="bottom-info-container">
+              <div class="d-flex-info">
+                <div class="bottom-info"><i class="bi bi-wind bottom-icons"></i></div>
+                <div><span class="wind"></div>
+              </div>
+              <div class="d-flex-info">
+                <div class="bottom-info"><i class="bi bi-droplet bottom-icons"></i></div>
+                <div class="humidity"></div>
+              </div>
+              <div class="d-flex-info">
+                <div class="bottom-info"><i class="bi bi-brightness-high bottom-icons"></i></div>
+                <div class="sunrise"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="one"></div>
+    <style>
+      .one {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      @media (max-width:768px) {
+        .one {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: none;
+        }
+      }
+
+    </style>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div id="holtest"></div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+
+</html>

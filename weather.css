@@ -1,0 +1,65 @@
+.d-flex-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+}
+.top-info-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.bottom-info-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #18ffb4;
+  padding: 2rem 0;
+}
+.top-card {
+  max-width: 500px;
+  height: auto;
+  background: #333;
+  border-radius: 10px;
+  text-align: center;
+  margin: 0 auto;
+}
+.city-form {
+  padding: 2rem 0;
+}
+.city-form button {
+  background: #18ffb4;
+  border: 1px solid #18ffb4;
+  border-radius: 2px;
+}
+input.form-style {
+  padding-left: 10px;
+}
+.form-style {
+  width: 60%;
+  background: #000;
+  border: 1px solid #545454;
+  height: 28px;
+}
+.city-name {
+  font-size: 3.5rem;
+  color: #18ffb4;
+  font-weight: 700;
+  letter-spacing: 4px;
+  padding-bottom: 2rem;
+}
+.bottom-icons {
+  font-size: 1.5rem;
+  color: #333;
+  margin: 0 5px;
+}
+.top-info {
+  font-size: 3rem;
+  font-weight: 300;
+  color: white;
+  margin: 0 1rem;
+}
+.bottom-info {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
